@@ -1,7 +1,7 @@
 {
   "name": "kuromojist",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "kuromoji.js wrapper for calculate cost",
   "main": "lib/index.js",
   "scripts": {
     "test": "eater"
@@ -10,8 +10,8 @@
     "lib/"
   ],
   "keywords": ["kuromoji", "kuromoji.js"],
-  "author": "",
-  "license": "ISC",
+  "author": "inuscript",
+  "license": "MIT",
   "dependencies": {
     "kuromojin": "^1.3.1"
   },
