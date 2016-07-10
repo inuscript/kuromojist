@@ -1,6 +1,6 @@
 {
   "name": "kuromojist",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Calculate some costs from kuromoji.js ",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,10 @@
   "files": [
     "lib/"
   ],
-  "keywords": ["kuromoji", "kuromoji.js"],
+  "keywords": [
+    "kuromoji",
+    "kuromoji.js"
+  ],
   "author": "inuscript",
   "license": "MIT",
   "repository": {
