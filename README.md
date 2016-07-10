@@ -5,14 +5,14 @@ Expose costs from [kuromoji.js](https://github.com/takuyaa/kuromoji.js) ([kuromo
 # Example
 
 ```js
-const analyzeCosts = require('kuromojist')
+const { analyzeCosts } = require('kuromojist')
 
 analyzeCosts('すもももももももものうち').then( result => {
   console.log(result)
 })
 ```
 
-Result
+This result
 
 ```js
 [
@@ -28,16 +28,16 @@ Result
 
 # Result Object
 
-- word_id
+- `word_id`
   - Same as `kuromoji.tokenize`
-- surface_form
+- `surface_form`
   - Same as `kuromoji.surface_form`
-- cost
+- `cost`
   - Word Cost
   - Mecab format: `%pw`
-- edge_cost
+- `edge_cost`
   - Lattice Edge Cost
   - Mecab format:`%pC`
-- shortest_cost
+- `shortest_cost`
   - Minimum connection costs (accumulated)
   - Mecab format: `%pc`
