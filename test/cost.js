@@ -1,6 +1,6 @@
 const assert = require('assert')
 const util = require('util')
-const analyzeCosts = require('../lib/index')
+const { analyzeCosts } = require('../lib/index')
 const test = require('eater/runner').test;
 
 // for debug
