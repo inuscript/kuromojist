@@ -1,6 +1,6 @@
 # kuromojist
 
-Calculate some costs from [kuromoji.js](https://github.com/takuyaa/kuromoji.js) ([kuromojin](https://github.com/azu/kuromojin))
+Calculate some costs ( for Mecab, `%pw`, `%pc`, `%pC`) from [kuromoji.js](https://github.com/takuyaa/kuromoji.js) ([kuromojin](https://github.com/azu/kuromojin))
 with _**Unexposed**_ API ( `Tokenizer.getLattice` and `lattice.nodes_end_at`).
 
 # Example
