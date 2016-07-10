@@ -1,6 +1,7 @@
 # kuromojist
 
-Expose costs from [kuromoji.js](https://github.com/takuyaa/kuromoji.js) ([kuromojin](https://github.com/azu/kuromojin)).
+Calculate some costs from [kuromoji.js](https://github.com/takuyaa/kuromoji.js) ([kuromojin](https://github.com/azu/kuromojin))
+with _**Unexposed**_ API ( `Tokenizer.getLattice` and `Tokenizer.viterbi_searcher.search`).
 
 # Example
 
