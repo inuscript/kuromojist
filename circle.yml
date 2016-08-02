@@ -4,3 +4,7 @@ machine:
   post:
     - npm install -g npm@3
   timezone: Asia/Tokyo
+
+test:
+  post:
+    - npm run lint
