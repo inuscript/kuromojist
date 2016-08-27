@@ -4,7 +4,9 @@
   "description": "Calculate some costs from kuromoji.js ",
   "main": "lib/index.js",
   "scripts": {
-    "test": "eater"
+    "test": "eater",
+    "lint": "eslint lib/**/*",
+    "lint:fix": "eslint lib/**/* --fix"
   },
   "files": [
     "lib/"
@@ -23,6 +25,10 @@
     "kuromojin": "^1.3.1"
   },
   "devDependencies": {
-    "eater": "^3.0.0-5"
+    "eater": "^3.0.0-5",
+    "eslint": "^3.3.1",
+    "eslint-config-standard": "^5.3.1",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^1.3.2"
   }
 }
