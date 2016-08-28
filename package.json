@@ -1,6 +1,6 @@
 {
   "name": "kuromojist",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Calculate some costs from kuromoji.js ",
   "main": "lib/index.js",
   "scripts": {
