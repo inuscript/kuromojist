@@ -48,7 +48,7 @@ testing('すもももももももものうち', [
   { word_id: 1614710, surface_form: 'もも', cost: 7219, edge_cost: 17, shortest_cost: 22757 },
   { word_id: 93100, surface_form: 'の', cost: 4816, edge_cost: -4442, shortest_cost: 23131 },
   { word_id: 62510, surface_form: 'うち', cost: 5796, edge_cost: -5198, shortest_cost: 23729 },
-  { word_id: -1, surface_form: '', cost: 0, edge_cost: -2484, shortest_cost: 21245 } 
+  { word_id: -1, surface_form: '', cost: 0, edge_cost: -2484, shortest_cost: 21245 }
 ])
 
 testing('庭には、二羽鶏がいる', [ { word_id: -1, surface_form: '', cost: 0, edge_cost: 0, shortest_cost: 0 },
